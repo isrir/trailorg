@@ -43,9 +43,12 @@ public class dr_PastAcademicInterstBatchTest {
             insert listAcademicInterest;
         }
         
+        test.startTest();
         dr_PastAcademicInterstBatch thisdr_PastAcademicInterstBatch = new dr_PastAcademicInterstBatch();
         Database.executeBatch(thisdr_PastAcademicInterstBatch);
+        test.stopTest();        
         List<AcademicInterest> updateAcademicInterest = [SELECT Id,Name,Status From AcademicInterest Where Status = 'Lost'];
+        System.debug(updateAcademicInterest);
         System.Assert.areEqual(100, updateAcademicInterest.size());
     }
 }
