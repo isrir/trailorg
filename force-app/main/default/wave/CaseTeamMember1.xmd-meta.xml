@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>CaseTeamMember1</dataset>
+    <dimensions>
+        <field>CTR.Name</field>
+        <isDerived>false</isDerived>
+        <label>Case Team Role</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>CTT.Name</field>
+        <isDerived>false</isDerived>
+        <label>Case Team Template</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>ServiceRes_formula</field>
+        <isDerived>false</isDerived>
+        <label>Service Appointment</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+</WaveXmd>

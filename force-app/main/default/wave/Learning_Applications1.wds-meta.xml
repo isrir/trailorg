@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Education_Analytics1</application>
+    <masterLabel>Learning - Applications</masterLabel>
+    <templateAssetSourceName>Learning_Applications_tp</templateAssetSourceName>
+    <type>default</type>
+</WaveDataset>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Cases1</dataset>
+    <measures>
+        <field>Per_Change_RFI</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>RFIs</field>
+        <isDerived>true</isDerived>
+        <label>Count of RFI</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+</WaveXmd>

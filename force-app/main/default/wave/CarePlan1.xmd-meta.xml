@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>CarePlan1</dataset>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Care Plan Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Student Name</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>RecordType.Name</field>
+        <isDerived>false</isDerived>
+        <label>Category</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Case.CaseNumber</field>
+        <isDerived>false</isDerived>
+        <label>Case</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>EndDateDays_formula</field>
+        <isDerived>false</isDerived>
+        <label>Overdue</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Join_ATE.AcademicTerm.Name</field>
+        <isDerived>false</isDerived>
+        <label>Academic Term</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Total_Care_Plans</field>
+        <isDerived>true</isDerived>
+        <label>Total Care Plans</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+</WaveXmd>

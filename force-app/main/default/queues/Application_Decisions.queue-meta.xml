@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Application_Decisions</name>
+    <queueMembers>
+        <users>
+            <user>adamadmissionsuser17084597040716180198.1.vha1simarx1y.uoioaxqcgp6b@force.com</user>
+            <user>rahulregistraruser17084615618074213984.l.u1sumf9ihx89.dh5dzj0aqo0s@force.com</user>
+            <user>sriramok858-fv9p@force.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>ApplicationDecision</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>ApplicationReview</sobjectType>
+    </queueSobject>
+</Queue>

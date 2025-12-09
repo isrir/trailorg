@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Leads1</dataset>
+    <measures>
+        <field>count</field>
+        <isDerived>true</isDerived>
+        <label>Leads</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+</WaveXmd>

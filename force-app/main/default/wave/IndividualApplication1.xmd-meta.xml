@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>IndividualApplication1</dataset>
+    <measures>
+        <field>AdmissionRate_current</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <label>Admission Rate</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>AdmissionRate_5ys</field>
+        <formatCustomFormat>[&quot;#,###.##%&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Percentagechange_overall</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>TotalApplication_PerChange</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>AdmissionRate_change</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>count</field>
+        <isDerived>true</isDerived>
+        <label>Applications</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>IncompleteApplication</field>
+        <isDerived>true</isDerived>
+        <label>Incomplete Applications</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>AwaitingApplicationDecision</field>
+        <isDerived>true</isDerived>
+        <label>Applications Awaiting Decision</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>7</sortIndex>
+    </measures>
+</WaveXmd>

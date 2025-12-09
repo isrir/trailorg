@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>true</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <name>ctTruboExtract</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterDataType>REFERENCE</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Cid</filterValue>
+        <globalKey>cb19c408-ad35-4ef6-9ea1-204623444690</globalKey>
+        <inputFieldName>ContactId</inputFieldName>
+        <inputObjectName>Case</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ctTruboExtract</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Case</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>2129cb61-cfba-4b5c-95a6-33b552ae2f26</globalKey>
+        <inputFieldName>AccountId</inputFieldName>
+        <inputObjectName>Case</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ctTruboExtract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Case</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>686d34b9-f324-450d-98cf-f6ba143174a9</globalKey>
+        <inputFieldName>Type</inputFieldName>
+        <inputObjectName>Case</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ctTruboExtract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Case</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>16adbc50-b95b-4b38-ac68-40cb04cc91cf</globalKey>
+        <inputFieldName>ContactId</inputFieldName>
+        <inputObjectName>Case</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ctTruboExtract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Case</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>5fbfa9ba-b2d2-47bf-8d7a-bd6ca674c808</globalKey>
+        <inputFieldName>Status</inputFieldName>
+        <inputObjectName>Case</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ctTruboExtract</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Case</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;Cid&quot; : &quot;003dN00000IxEPaQAN&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+    <uniqueName>ctTruboExtract_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

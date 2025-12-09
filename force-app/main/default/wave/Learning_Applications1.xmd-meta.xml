@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>Learning_Applications1</dataset>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Department</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Account.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>AccountId</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Num_Applications</field>
+        <isDerived>true</isDerived>
+        <label>Number of Applications</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>LearningProgram.Name</field>
+        <isDerived>false</isDerived>
+        <label>Program Name</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>LearningProgram.Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>LearningProgram.Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Acceptance_Rate</field>
+        <isDerived>true</isDerived>
+        <label>Acceptance Rate</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>Asylum</bin>
+                <formatValue>#06A59A</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>National</bin>
+                <formatValue>#014486</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Other</bin>
+                <formatValue>#1B96FF</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>2</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Refugee</bin>
+                <formatValue>#AD7BEE</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>3</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Not Available</bin>
+                <formatValue>#024D4C</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>4</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>ContactProfile.ContactProfile.PrimaryCitizenshipType</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>ContactProfile.ContactProfile.PrimaryCitizenshipType</field>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Admission_Rate</field>
+        <isDerived>true</isDerived>
+        <label>Admission Rate</label>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>Female</bin>
+                <formatValue>#06A59A</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Male</bin>
+                <formatValue>#014486</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Nonbinary</bin>
+                <formatValue>#1B96FF</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>2</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Not Listed</bin>
+                <formatValue>#AD7BEE</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>3</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Not Available</bin>
+                <formatValue>#024D4C</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>4</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>ContactProfile.Account.PersonGenderIdentity</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>ContactProfile.Account.PersonGenderIdentity</field>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>Accepted Admissions</bin>
+                <formatValue>#014486</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Deferred Admissions</bin>
+                <formatValue>#1B96FF</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Admitted</bin>
+                <formatValue>#5A1BA9</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>2</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Enrolled</bin>
+                <formatValue>#AD7BEE</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>3</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Waitlisted</bin>
+                <formatValue>#024D4C</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>4</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>Decision Ready</bin>
+                <formatValue>#06A59A</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>5</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>In Review</bin>
+                <formatValue>#DD7A01</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>6</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Application_Pipeline</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Application_Pipeline</field>
+        <isDerived>false</isDerived>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+</WaveXmd>

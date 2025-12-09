@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>RecordAlert1</dataset>
+    <dates>
+        <alias>Effective Start Date</alias>
+        <firstDayOfWeek>-1</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Effective Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Student Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>WhatId</field>
+        <isDerived>false</isDerived>
+        <label>What</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>RecordType.Name</field>
+        <isDerived>false</isDerived>
+        <label>Case Record Type</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Join_ATE.AcademicTerm.Name</field>
+        <isDerived>false</isDerived>
+        <label>Academic Term</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>RecordAlertCategory.DeveloperName</field>
+        <isDerived>false</isDerived>
+        <label>Alert Category</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+</WaveXmd>

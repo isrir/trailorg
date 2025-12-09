@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Alumni_LearnerProgram_Master1</dataset>
+    <dimensions>
+        <field>Contact.ConstituentRole.Name</field>
+        <isDerived>false</isDerived>
+        <label>Constituent Role Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>LearningProgramPlan.LearningProgram.Learning.Name</field>
+        <isDerived>false</isDerived>
+        <label>Learning Name</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>LearningProgramPlan.LearningProgram.Name</field>
+        <isDerived>false</isDerived>
+        <label>Learning Program Name</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>LearningProgramPlan.Name</field>
+        <isDerived>false</isDerived>
+        <label>Learning Program Plan Name</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Contact Name</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Contact.ConstituentRole.Status</field>
+        <isDerived>false</isDerived>
+        <label>ConstituentRole Status</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+</WaveXmd>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Alumni_RecordAlert_Master1</dataset>
+    <dimensions>
+        <field>Case.SuppliedName</field>
+        <isDerived>false</isDerived>
+        <label>Supplied Name</label>
+        <linkTemplateEnabled>false</linkTemplateEnabled>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>ParentId</field>
+        <isDerived>false</isDerived>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>ParentId</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>ParentId</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Id</field>
+        <isDerived>false</isDerived>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Case.SuppliedName</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Name</field>
+        <isDerived>false</isDerived>
+        <label>Alert Name</label>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Name</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>Id</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Case.Contact.LearnerProgram.LearningProgramPlan.LearningProgram.Name</field>
+        <isDerived>false</isDerived>
+        <label>Learning Program Name</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>RecordAlertCategory.MasterLabel</field>
+        <isDerived>false</isDerived>
+        <label>Record Alert Category</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Case.Contact.ConstituentRole.Name</field>
+        <isDerived>false</isDerived>
+        <label>ConstituentRole Name</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Case.Contact.ConstituentRole.Status</field>
+        <isDerived>false</isDerived>
+        <label>ConstituentRole Status</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Case.Status</field>
+        <isDerived>false</isDerived>
+        <label>Case Status</label>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>RecordAlertCategory.DeveloperName</field>
+        <isDerived>false</isDerived>
+        <label>DeveloperName</label>
+        <sortIndex>9</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Case.CaseNumber</field>
+        <isDerived>false</isDerived>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Case.CaseNumber</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>ParentId</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>10</sortIndex>
+    </dimensions>
+</WaveXmd>

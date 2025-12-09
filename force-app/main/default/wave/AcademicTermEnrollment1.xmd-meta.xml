@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>AcademicTermEnrollment1</dataset>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <label>Student Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>AcademicTerm.Name</field>
+        <isDerived>false</isDerived>
+        <label>Academic Term</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>AcademicYear.Name</field>
+        <isDerived>false</isDerived>
+        <label>Academic Year</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <measures>
+        <field>AggRecordAlert.UNIQUE_Id</field>
+        <isDerived>false</isDerived>
+        <label>Open Alerts</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Count</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>ChangePer</field>
+        <formatCustomFormat>[&quot;▲#,###..##%;▼-#,###..##%;0%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+</WaveXmd>

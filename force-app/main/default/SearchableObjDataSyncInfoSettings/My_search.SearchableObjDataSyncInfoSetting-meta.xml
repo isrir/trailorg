@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchableObjDataSyncInfo xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSyncActive>false</dataSyncActive>
+    <masterLabel>My search</masterLabel>
+    <searchableObject>EducInstSearchableProfile</searchableObject>
+</SearchableObjDataSyncInfo>

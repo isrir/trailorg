@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Alumni_LearningAchievement_Master1</dataset>
+    <dimensions>
+        <field>LearningOutcomeItem.Learning.LearnerProgram.LearningProgramPlan.LearningProgram.Name</field>
+        <isDerived>false</isDerived>
+        <label>Learning Program Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>LearningOutcomeItem.Learning.Name</field>
+        <isDerived>false</isDerived>
+        <label>Learning Name</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>LearningOutcomeItem.Name</field>
+        <isDerived>false</isDerived>
+        <label>LearningOutcomeItem Name</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+</WaveXmd>

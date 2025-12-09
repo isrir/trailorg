@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Academic Interest : Admission</name>
+    <queueMembers>
+        <users>
+            <user>sriramok858-fv9p@force.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>AcademicInterest</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Appointment1</dataset>
+    <dimensions>
+        <field>AcademicTerm.Name</field>
+        <isDerived>false</isDerived>
+        <label>Academic Term</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Count</field>
+        <formatCustomFormat>[&quot;▲#,###.##%;▼-#,###.##%;0%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Cancel Rate</field>
+        <formatCustomFormat>[&quot;#,##0.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <showInExplorer>true</showInExplorer>
+        <sortIndex>1</sortIndex>
+    </measures>
+</WaveXmd>
